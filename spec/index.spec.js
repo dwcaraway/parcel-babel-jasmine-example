@@ -1,4 +1,4 @@
-const myIndex  = require('../src')
+const myIndex  = require('../src/main')
 
 describe("a test", () => {
   it("should show when expectations and results don't match", () => {

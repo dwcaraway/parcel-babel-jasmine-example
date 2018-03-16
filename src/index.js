@@ -1,15 +1,7 @@
-// const $ = require('jquery')
+const main = require('./main')
 
-const multiply = (num1, num2) => (
-  num1 * num2
-)
+//Set button up to call the changeSomething function
+document.querySelector("#changeBtn").addEventListener("click", main.changeSomething)
 
-const changeSomething = () => {
-  console.log('changeSomething called')
-  // $('#block1').text("changed block")
-  document.getElementById('block1').innerHTML = 'changed block'
-}
 
-document.foo = changeSomething
 
-module.exports.multiply = multiply
